@@ -1,0 +1,47 @@
+{{ with .Site.Params.about }}
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center section_title">
+                    <div class="section_title_border">
+                        <div class="f-border"></div>
+                        <div class="s-border"></div>
+                        <div class="f-border"></div>
+                        <p class="sec_small_title mb-0 text-custom d-inline-block">{{ .title }}</p>
+                        <div class="f-border"></div>
+                        <div class="s-border"></div>
+                        <div class="f-border"></div>
+                    </div>
+                    <h3 class="font-weight-bold mt-3 mb-0">{{ .header }}</h3>                            
+                    <p class="text-muted sec_subtitle mx-auto mt-3">{{ .tagline1 }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="mt-3">
+                    <h3 class="about_title">{{ .tagline2 }}</h3>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mt-3">
+                    <p class="about_sec_dec text-muted">{{ .description | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about_shader mb-5 mx-auto">
+                    <canvas id="intro" width="1280" height="800" class="img-fluid mx-auto d-none rounded"></canvas>
+                    <img id="intro_gif" width="1280" height="800" class="img-fluid mx-auto d-none rounded" src="images/shader.gif"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

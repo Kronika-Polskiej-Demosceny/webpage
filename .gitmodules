@@ -1,0 +1,3 @@
+[submodule "themes/hugo-kskpd-theme"]
+	path = themes/hugo-kskpd-theme
+	url = git@github.com:Kronika-Polskiej-Demosceny/hugo-kskpd-theme.git

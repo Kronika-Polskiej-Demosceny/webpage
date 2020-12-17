@@ -1,0 +1,195 @@
+baseURL: https://kskpd.pl/
+languageCode: pl-PL
+defaultContentLanguage: pl
+theme: hugo-kskpd-theme
+title: Komitet Społeczny Kronika Polskiej Demosceny
+
+params:
+  author: Andrzej Lichnerowicz <andrzej@lichnerowicz.pl>
+  keywords: demoscene, demoscena, kronika, chronicles, unesco
+  socialmedia:
+    twitter: https://twitter.com/kronikaplsceny
+    instagram: https://www.instagram.com/kronikapolskiejdemosceny/
+    facebook: https://www.facebook.com/kronikapolskiejdemosceny
+    github: https://github.com/Kronika-Polskiej-Demosceny
+  home:
+    title: Kronika Polskiej Demosceny
+    tagline1: Kultura cyfrowa
+    tagline2: Niematerialne dziedzictwo kulturowe polskiej twórczości cyfrowej
+    button: 
+      text: Demoscena w pigułce →
+      url: "#pillars"
+  about:
+    title: O Nas
+    header: Kronika Polskiej Demosceny
+    tagline1: Pielęgnujemy dziedzictwo polskiej twórczości demoscenowej dla przyszłych pokoleń kultury cyfrowej.
+    tagline2: Demoscena to najstarsza polska kultura cyfrowa.
+    description: |
+        Demoscena to międzynarodowa społeczność tworząca cyfrowe dzieła audiowizualne. Narzędziami artystów i artystek są urządzenia elektroniczne. Programy, muzyka i grafika powstają na najróżniejszym sprzęcie komputerowym i często przekraczają jego założenia techniczne — w imię sztuki.
+        
+        Komitet Społeczny "Kronika Polskiej Demosceny" ściśle współpracuje z zespołami demoscenowymi, organizacjami kulturalnymi oraz z osobami prowadzącymi badania naukowe dotyczące kultury i sztuki cyfrowej.
+  pillars:
+    - title: Technologia
+      description: |
+        Twórczość demoscenowa jest nierozerwalnie związana z technologią. Sztuka 
+        cyfrowa zaczęła powstawać w Polsce moment po pojawieniu się pierwszych 
+        mikrokomputerów. Od tej pory rozwija się, niejednokrotnie przekraczając 
+        założenia techniczne systemów komputerowych.
+      icon: mdi mdi-floppy-variant
+    - title: Sztuka
+      description: |
+        Siłą napędową działalności demoscenowej jest chęć tworzenia, a narzędziem 
+        ekspresji są możliwości komputerów, których ograniczenia techniczne 
+        przekraczamy od początku ich istnienia — w imię sztuki.
+      icon: mdi mdi-palette
+    - title: Konkurencja
+      description: |
+        Jednym z filarów demosceny jest twórcza konkurencja. Stałym punktem programu
+        imprezy demoscenowej są konkursy, w których pojedyncze osoby i zorganizowane 
+        grupy wystawiają swoje prace pod ocenę publiczności.
+      icon: mdi mdi-trophy-variant
+  
+  demoscene:
+    header: Demoscena to ludzie.
+    description: |
+      Artyści i artystki demosceny tworzą swoje prace na najróżniejszych platformach 
+      sprzętowych. Tworzą społeczność o specyficznym języku i zwyczajach. Spotykają 
+      się na imprezach zwanych [demoparties], wystawiają swoje prace w konkursach 
+      zwanych [kompotami], łączą się w zespoły zwane [grupami]. Grupy współzawodniczą
+      w najważniejszej demoscenowej kategorii konkursowej na najlepszą produkcję, 
+      tzw. [demo].
+    image:
+      webp: images/Demoscena_BartoszRakowski_3.webp
+      default: images/Demoscena_BartoszRakowski_3.jpg
+  
+  artofcoding:
+    header: Dziedzictwo kulturowe
+    title: Demoscena Na Liście Niematerialnego Dziedzictwa Kulturowego UNESCO
+    description: |
+      Jednym z celów Kroniki Polskiej Demosceny jest wpisanie polskiej twórczości 
+      demoscenowej na listę narodowego dziedzictwa kulturowego.
+
+      Rodzima sztuka cyfrowa godnie reprezentuje nas na arenie międzynarodowej. 
+      Nasze prace zajmują wysokie miejsca w konkursach na światowych [parties]. 
+      Organizacje z całego świata z powodzeniem zgłaszają wnioski do UNESCO 
+      o uznanie swych lokalnych demoscen za niematerialne dziedzictwo kulturowe.
+    status:
+      niemcy: Wniosek zaakceptowany w Nadrenii-Westfalii
+      finlandia: Wpisała demoscenę na listę dziedzictwa kulturowego
+    image:
+      webp: images/AOC-Main-Images-042020.webp
+      default: images/AOC-Main-Images-042020.jpg
+    
+  application:
+    header: UNESCO w Polsce
+    title: Prace nad wnioskiem
+    description: |
+      Chcemy kultywować najlepsze tradycje związane z polską demosceną oraz 
+      zachować wartościowe materiały dla przyszłych pokoleń zajmujących się 
+      twórczością cyfrową i badaniami kultury.
+    sections:
+      - title: Organizacja
+        description: |
+          Jako komitet społeczny działamy na rzecz zachowania dziedzictwa 
+          kulturowego początków polskiego społeczeństwa cyfrowego.
+        icon: fas fa-sitemap
+      - title: Zachowanie dzieł
+        description: |
+          Prowadzimy archiwum prac, imprez i osób związanych z demosceną — od 
+          początku jej istnienia w Polsce po dziś dzień.        
+        icon: fas fa-photo-video
+      - title: Badania historyczne
+        description: |
+          Zbieramy i opracowujemy materiały badawcze dzięki współpracy z 
+          organizacjami kulturalnymi i naukowymi w kraju i na świecie.
+        icon: fas fa-landmark
+  cta:
+    header: Chcesz pomóc?
+    button:
+      text: Dowiedz się jak
+      url: "#"
+
+  team:
+    header: Zespół
+    title: Komitet Społeczny Kronika Polskiej Demosceny
+    description: |
+      Wywodzimy się ze środowiska polskiej demosceny, 
+      które zna nas pod pseudonimami artystycznymi. Oto nasze prawdziwe nazwiska:
+    team:
+      - nick: angelo
+        name: Andrzej Lichnerowicz
+        social:
+          - url: https://www.instagram.com/unje11o/
+            style: fab fa-instagram
+          - url: https://twitter.com/unjello
+            style: fab fa-twitter
+          - url: https://www.linkedin.com/in/andrzejlichnerowicz/
+            style: fab fa-linkedin-in
+      - nick: zenial
+        name: Łukasz Szałankiewicz
+        social:
+          - url: https://www.facebook.com/Zeniallo/
+            style: fab fa-facebook-f
+          - url: http://instagram.com/zeniallo
+            style: fab fa-instagram
+          - url: https://www.linkedin.com/in/zeniallo/
+            style: fab fa-linkedin-in
+      - nick: kya
+        name: Kaja Mikoszewska
+        social:
+          - url: https://about.me/evilkya
+            style: fas fa-user
+      - nick: biter
+        name: Bartosz Rakowski
+        social:
+          - url: https://www.linkedin.com/in/bartoszrakowski/
+            style: fab fa-linkedin-in
+          - url: http://bartoszrakowski.com
+            style: fas fa-home
+          - url: https://www.instagram.com/biter_online
+            style: fab fa-instagram
+      - nick: willy
+        name: Filip Kuźmiński
+        social:
+          - url: https://soundcloud.com/loopsandrobots
+            style: fab fa-soundcloud
+          - url: https://www.instagram.com/pepper_emoji
+            style: fab fa-instagram
+          - url: https://www.youtube.com/user/CzarnyJobacz
+            style: fab fa-youtube
+
+  support:
+    header: Patronat wniosku
+    title: Kto nas wspiera
+    description: Instytucje i społeczności, które wspierają nas w kultywowaniu demoscenowego dziedzictwa narodowego w Polsce.
+    partners:
+      - tag: mhki
+        alt: Muzeum Historii Komputerów i Informatyki w Katowicach
+        url: http://www.muzeumkomputerow.edu.pl/
+      - tag: animator
+        alt: Animator - Międzynarodowy Festiwal Filmów Animowanych
+        url: https://animator-festival.com/
+      - tag: audioart
+        alt: Audio Art - festiwal integracji sztuk wizualnych z dźwiękowymi
+        url: http://www.audio.art.pl/
+      - tag: retrokomp
+        alt: RetroKomp - Festiwal miłośników komputerów z lat 80-tych i 90-tych.
+        url: http://retrokomp.org/
+      - tag: pixel
+        alt: Magazyn Pixel - pismo poświęcone kulturze gier wideo
+        url: https://pixel-magazine.com/
+      - tag: kaplus
+        alt: Komodore & Amiga plus - pismo poświęcone kulturze gier komputerowych retro
+        url: http://ka-plus.pl/pl/strona-glowna/
+      - tag: atomicjelly
+        alt: Atomic Jelly - producent i wydawca innowacyjnych gier
+        url: https://atomic-jelly.com/
+      - tag: atarifan
+        alt: AtariFan - magazyn wszystkich fanów Atari
+        url: http://atarifan.pl/
+      - tag: speccypl
+        alt: speccy.pl - Portal użytkowników i miłośników komputerów ZX Spectrum, SAM Coupé oraz Amstrad CPC
+        url: http://speccy.pl
+      - tag: nerdynoca
+        alt: Nerdy Nocą - podcast poszerzający horyzonty, rozbudzający ciekawość i poprawiający samopoczucie.
+        url: https://nerdynoca.pl/

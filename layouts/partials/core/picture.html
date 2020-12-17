@@ -1,0 +1,5 @@
+<picture class="img-fluid mx-auto d-block rounded">
+    {{ with .webp }}<source srcset="{{ . }}" type="image/webp"/>{{ end }}
+    {{ with .default }}<source srcset="{{ . }}" type="image/jpg"/>{{ end }}
+    {{ with .default }}<img class="img-fluid mx-auto d-block rounded" src="{{ . }}" alt="">{{ end }}
+</picture>

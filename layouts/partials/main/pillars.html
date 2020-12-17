@@ -1,0 +1,24 @@
+{{ with .Site.Params.pillars }}
+<section id="pillars">
+    <div class="container">
+        <div class="row">
+            {{ range . }}
+            <div class="col-lg-4">
+                <div class="pillars_box mt-3 h-100">
+                    <div class="pillars_icon">
+                        <i class="{{ .icon }}"></i>
+                    </div>
+                    <div class="pillars_content mt-3">
+                        <h5 class="mb-0">{{ .title }}</h5>
+                        <p class="text-muted mt-3">{{ .description | markdownify }}</p>
+                    </div>
+                    <div class="bgpillars_icon">
+                        <i class="{{ .icon }} mdi-spin"></i>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{end}}
