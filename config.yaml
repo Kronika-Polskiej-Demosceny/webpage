@@ -64,7 +64,7 @@ params:
       default: images/Demoscena_BartoszRakowski_3.jpg
   
   artofcoding:
-    header: Dziedzictwo kulturowe
+    header: Art of Coding
     title: Demoscena Na Liście Niematerialnego Dziedzictwa Kulturowego UNESCO
     description: |
       Jednym z celów Kroniki Polskiej Demosceny jest wpisanie polskiej twórczości 
@@ -74,6 +74,8 @@ params:
       Nasze prace zajmują wysokie miejsca w konkursach na światowych parties. 
       Organizacje z całego świata z powodzeniem zgłaszają wnioski do UNESCO 
       o uznanie swych lokalnych demoscen za niematerialne dziedzictwo kulturowe.
+
+      Prace naszego komitetu są częścią międzynarodowej inicjatywy [Art of Coding](http://demoscene-the-art-of-coding.net/).
     status:
       niemcy: Wniosek zaakceptowany w Nadrenii-Westfalii
       finlandia: Wpisała demoscenę na listę dziedzictwa kulturowego
