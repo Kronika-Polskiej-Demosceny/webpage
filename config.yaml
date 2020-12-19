@@ -1,4 +1,4 @@
-baseURL: http://kskpd.pl/
+baseURL: https://kskpd.pl/
 languageCode: pl-PL
 defaultContentLanguage: pl
 theme: hugo-kskpd-theme
