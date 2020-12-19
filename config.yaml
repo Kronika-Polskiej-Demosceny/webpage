@@ -110,7 +110,7 @@ params:
     header: Chcesz pomóc?
     button:
       text: Dowiedz się jak
-      url: "#"
+      url: "mailto:kontakt@kskpd.pl?subject=Jak mogę pomóc?"
 
   team:
     header: Zespół
