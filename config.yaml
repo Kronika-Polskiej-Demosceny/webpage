@@ -189,6 +189,9 @@ params:
       - tag: kaplus
         alt: Komodore & Amiga plus - pismo poświęcone kulturze gier komputerowych retro
         url: http://ka-plus.pl/pl/strona-glowna/
+      - tag: amigowiec
+        alt: Amigowiec - Strona fanów komputera Amiga
+        url: https://www.amigowiec.pl/
       - tag: atomicjelly
         alt: Atomic Jelly - producent i wydawca innowacyjnych gier
         url: https://atomic-jelly.com/

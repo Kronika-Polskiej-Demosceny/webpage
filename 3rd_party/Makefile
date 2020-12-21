@@ -11,6 +11,7 @@ all:
 	convert logo_AF.pdf -resize x200 ../static/images/support/atarifan.png
 	convert Kaplus_logo.png -resize x200 ../static/images/support/kaplus.png
 	convert received_424428622071031.jpeg -resize x200 ../static/images/support/audioart.png
+	convert amigowiec_logo_medium.png -resize x200 ../static/images/support/amigowiec.png
 	for filename in ../static/images/support/*.png; do \
 		convert $$filename -quality 50 ../static/images/support/`basename $$filename .png`.webp; \
 	done
