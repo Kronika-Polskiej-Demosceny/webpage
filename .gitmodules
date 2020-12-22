@@ -4,3 +4,6 @@
 [submodule "build"]
 	path = build
 	url = git@github.com:Kronika-Polskiej-Demosceny/kskpd.pl.git
+[submodule "3rd_party"]
+	path = 3rd_party
+	url = git@github.com:Kronika-Polskiej-Demosceny/webpage-3rd-party.git
