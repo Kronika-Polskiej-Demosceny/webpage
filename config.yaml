@@ -204,3 +204,9 @@ params:
       - tag: nerdynoca
         alt: Nerdy Nocą - podcast poszerzający horyzonty, rozbudzający ciekawość i poprawiający samopoczucie.
         url: https://nerdynoca.pl/
+      - tag: retrolab
+        alt: RetroLab - Społeczność Szeroko rozumianych komputerów i konsol. Amiga, Commodore, Sega czy Pegasus czyli sprzęt, który towarzyszy nam co najmniej od 30 lat.
+        url: http://retrolab.pl
+      - tag: atariarea
+        alt: atari.area - polskie źródło informacji o atari
+        url: http://www.atari.org.pl/
