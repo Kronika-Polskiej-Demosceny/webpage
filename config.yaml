@@ -210,3 +210,12 @@ params:
       - tag: atariarea
         alt: atari.area - polskie źródło informacji o atari
         url: http://www.atari.org.pl/
+      - tag: ppa
+        alt: ppa.pl - Polski Portal Amigowy
+        url: https://www.ppa.pl/
+      - tag: scena_ppa
+        alt: Jedyne sensowne miejsce skupiające scenę Amigową
+        url: https://scena.ppa.pl/
+      - tag: pionierska
+        alt: Mikro wydawnictwo fonograficzne w stylu retro wydające muzykę na dyskietkach 3.5 cala oraz kasetach magnetofonowych
+        url: https://pionierskarecords.bandcamp.com/audio 
