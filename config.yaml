@@ -174,27 +174,39 @@ params:
       - tag: mhki
         alt: Muzeum Historii Komputerów i Informatyki w Katowicach
         url: http://www.muzeumkomputerow.edu.pl/
+        facebook: MuzeumHistoriiKomputerowIInformatyki
       - tag: animator
         alt: Animator - Międzynarodowy Festiwal Filmów Animowanych
         url: https://animator-festival.com/
+        instagram: animator_festival
+        facebook: FestivalAnimator
       - tag: audioart
         alt: Audio Art - festiwal integracji sztuk wizualnych z dźwiękowymi
         url: http://www.audio.art.pl/
       - tag: retrokomp
         alt: RetroKomp - Festiwal miłośników komputerów z lat 80-tych i 90-tych.
         url: http://retrokomp.org/
+        facebook: RetrokompLoaderror
+        twitter: retrokomp
       - tag: pixel
         alt: Magazyn Pixel - pismo poświęcone kulturze gier wideo
         url: https://pixel-magazine.com/
+        facebook: pixelthemagazine
+        twitter: pxlthemagazine
       - tag: kaplus
         alt: Komodore & Amiga plus - pismo poświęcone kulturze gier komputerowych retro
         url: http://ka-plus.pl/pl/strona-glowna/
       - tag: amigowiec
         alt: Amigowiec - Strona fanów komputera Amiga
         url: https://www.amigowiec.pl/
+        facebook: amigowiecpl
+        instagram: amigowiec
       - tag: atomicjelly
         alt: Atomic Jelly - producent i wydawca innowacyjnych gier
         url: https://atomic-jelly.com/
+        facebook: AtomicJelly
+        twitter: atomic_jelly
+        instagram: atomicjelly
       - tag: atarifan
         alt: AtariFan - magazyn wszystkich fanów Atari
         url: http://atarifan.pl/
@@ -204,12 +216,15 @@ params:
       - tag: nerdynoca
         alt: Nerdy Nocą - podcast poszerzający horyzonty, rozbudzający ciekawość i poprawiający samopoczucie.
         url: https://nerdynoca.pl/
+        facebook: NerdyNoca
       - tag: retrolab
         alt: RetroLab - Społeczność Szeroko rozumianych komputerów i konsol. Amiga, Commodore, Sega czy Pegasus czyli sprzęt, który towarzyszy nam co najmniej od 30 lat.
         url: http://retrolab.pl
+        facebook: retrolabpl
       - tag: atariarea
         alt: atari.area - polskie źródło informacji o atari
         url: http://www.atari.org.pl/
+        facebook: atari.area
       - tag: ppa
         alt: ppa.pl - Polski Portal Amigowy
         url: https://www.ppa.pl/
@@ -218,4 +233,15 @@ params:
         url: https://scena.ppa.pl/
       - tag: pionierska
         alt: Mikro wydawnictwo fonograficzne w stylu retro wydające muzykę na dyskietkach 3.5 cala oraz kasetach magnetofonowych
-        url: https://pionierskarecords.bandcamp.com/audio 
+        url: https://pionierskarecords.bandcamp.com/audio
+        facebook: pionierska
+        twitter: pionierska
+        instagram: pionierskarecords
+      - tag: patchlab
+        alt: Festiwal Sztuki Cyfrowej Patchlab
+        url: https://patchlab.pl/
+        facebook: patchlabfestival
+        instagram: patchlabfestival
+      - tag: psx_extreme
+        alt: PSX Extereme - opiniotwórczy miesięcznik o grach na konsole
+        url: http://www.psxextreme.pl/
