@@ -229,3 +229,9 @@ params:
       - tag: psx_extreme
         alt: PSX Extereme - an opinion-forming monthly magazine about console games
         url: http://www.psxextreme.pl/
+      - tag: mataboo
+        alt: Mataboo - a games development company founded by demosceners
+        url: https://mataboo.com/index.html
+      - tag: wro
+        alt: The WRO Media Art Biennale - the major forum for new media art in Poland
+        url: https://wrocenter.pl/en/biennale-wro/

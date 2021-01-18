@@ -231,3 +231,9 @@ params:
       - tag: psx_extreme
         alt: PSX Extereme - opiniotwórczy miesięcznik o grach na konsole
         url: http://www.psxextreme.pl/
+      - tag: mataboo
+        alt: Mataboo - firma z branży gier założona przez demoscenowców
+        url: https://mataboo.com/index.html
+      - tag: wro
+        alt: Międzynarodowe Biennale Sztuki Mediów WRO
+        url: https://wrocenter.pl/pl/
