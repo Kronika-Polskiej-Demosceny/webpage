@@ -1,0 +1,231 @@
+languageName: English
+description: Preserving the heritage of Polish demoscene art for the future generations of digital culture.
+params:
+  home:
+    title: Kronika Polskiej Demosceny
+    tagline1: Digital culture
+    tagline2: An intangible cultural heritage of the Polish digital art
+    button: 
+      text: Demoscene in a nutshell  →
+      url: "#pillars"
+  
+  about:
+    title: About Us
+    header: Polish Demoscene Chronicles
+    tagline1: Preserving the heritage of Polish demoscene art for the future generations of digital culture.
+    tagline2: Demoscene is the oldest Polish digital culture.
+    description: |
+        Demoscene is an international community producing digital audiovisual art. Electronic devices are the artists’ tools. Programs, music, and graphics are created on all sorts of computer equipment, often exceeding its technical specifications - in the name of art.
+        
+        The "Polish Demoscene Chronicles" Association works closely with demoscene groups, cultural organizations, and researchers focusing on digital culture and art.
+  
+  pillars:
+    - title: Technology
+      description: |
+        Demoscene art is inextricably linked with computer technology. Digital art
+        emerged in Poland soon after the first microcomputers appeared. It grows 
+        ever since, repeatedly exceeding the technical specifications of computer systems.
+      icon: mdi mdi-floppy-variant
+    - title: Art
+      description: |
+        The driving force behind the demoscene activity is the desire to create, and its
+        means of expression are computers’ capabilities, whose technical limitations 
+        we surpass since their inception - in the name of art.
+      icon: mdi mdi-palette
+    - title: Competition
+      description: |
+        One of the cornerstones of the demoscene is creative competition. Demoscene 
+        parties' programs always include competitions in which individuals and organized 
+        groups show off their work, judged by the audience.
+      icon: mdi mdi-trophy-variant
+  
+  demoscene:
+    header: Demoscene equals people.
+    description: |
+      Demoscene artists create their works using various hardware platforms. They 
+      make up a community with a specific language and customs. They meet at events 
+      called demoparties, show off their works at competitions called compos, they 
+      organize themselves in teams called groups. The groups compete in the most 
+      important demoscene competition category for the best production, 
+      the so-called demo.
+    image:
+      webp: images/Demoscena_BartoszRakowski_3.webp
+      default: images/Demoscena_BartoszRakowski_3.jpg
+  
+  artofcoding:
+    header: Art of Coding
+    title: Demoscene on the UNESCO Intangible Cultural Heritage List
+    description: |
+      One of the "Polish Demoscene Chronicles" Association's aims is to add Polish 
+      demoscene art to the national cultural heritage list.
+
+      Native digital art worthly represents us in the international arena. Our works 
+      rank high in competitions at worldwide parties. Organizations from all around 
+      the world successfully apply to UNESCO to have their local demoscenes recognized 
+      as intangible cultural heritage. 
+      
+      The work of our association is part of the international campaign [Art of Coding](http://demoscene-the-art-of-coding.net/).
+    status:
+      germany: Submission accepted in Bundesland North Rhine-Westphalia
+      finland: Demoscene added to the cultural heritage list.
+    image:
+      webp: images/AOC-Main-Images-042020.webp
+      default: images/AOC-Main-Images-042020.jpg
+    
+  application:
+    header: UNESCO in Poland
+    title: Work on the application
+    description: |
+      We would like to cultivate the best traditions of the Polish demoscene and preserve 
+      valuable resources for future generations dealing with digital art and cultural studies.
+    sections:
+      - title: The Organisation
+        description: |
+          As an association we work towards the preservation of the cultural heritage of the
+          beginning of Polish digital society.
+        icon: fas fa-sitemap
+      - title: Preservation of Works
+        description: |
+          We run an archive of works, events, and people connected with demoscene - from its 
+          inception in Poland till today.        
+        icon: fas fa-photo-video
+      - title: Historical Studies
+        description: |
+          We collect and process research materials thanks to a collaboration with cultural 
+          and scientific organizations in the country and worldwide.
+        icon: fas fa-landmark
+  
+  cta:
+    header: Want to help?
+    button:
+      text: Learn how
+      url: "mailto:kontakt@kskpd.pl?subject=How can I help?"
+
+  team:
+    header: The Team
+    title: The "Polish Demoscene Chronicles" Association
+    description: |
+      We come from the Polish demoscene background, where we were known
+      under artistic pseudonyms. These are our real names:
+    team:
+      - nick: angelo
+        name: Andrzej Lichnerowicz
+        social:
+          - url: https://www.instagram.com/unje11o/
+            style: fab fa-instagram
+          - url: https://twitter.com/unjello
+            style: fab fa-twitter
+          - url: https://www.linkedin.com/in/andrzejlichnerowicz/
+            style: fab fa-linkedin-in
+      - nick: zenial
+        name: Łukasz Szałankiewicz
+        social:
+          - url: https://www.facebook.com/Zeniallo/
+            style: fab fa-facebook-f
+          - url: http://instagram.com/zeniallo
+            style: fab fa-instagram
+          - url: https://www.linkedin.com/in/zeniallo/
+            style: fab fa-linkedin-in
+      - nick: kya
+        name: Kaja Mikoszewska
+        social:
+          - url: https://about.me/evilkya
+            style: fas fa-user
+      - nick: biter
+        name: Bartosz Rakowski
+        social:
+          - url: https://www.linkedin.com/in/bartoszrakowski/
+            style: fab fa-linkedin-in
+          - url: http://bartoszrakowski.com
+            style: fas fa-home
+          - url: https://www.instagram.com/biter_online
+            style: fab fa-instagram
+      - nick: willy
+        name: Filip Kuźmiński
+        social:
+          - url: https://soundcloud.com/loopsandrobots
+            style: fab fa-soundcloud
+          - url: https://www.instagram.com/pepper_emoji
+            style: fab fa-instagram
+          - url: https://www.youtube.com/user/CzarnyJobacz
+            style: fab fa-youtube
+
+  support:
+    header: Patronage of the application
+    title: Our supporters 
+    description: Institutions and communities, who support us in cultivating national demoscene heritage in Poland.
+    partners:
+      - tag: mhki
+        alt: Museum of the History of Computers and Information Technology in Katowice
+        url: http://www.muzeumkomputerow.edu.pl/
+        facebook: MuzeumHistoriiKomputerowIInformatyki
+      - tag: animator
+        alt: Animator - International Animated Film Festival
+        url: https://animator-festival.com/
+        instagram: animator_festival
+        facebook: FestivalAnimator
+      - tag: audioart
+        alt: Audio Art - festival of integration of visual and audio arts
+        url: http://www.audio.art.pl/
+      - tag: retrokomp
+        alt: RetroKomp - A festival of computer lovers from the 80's and 90's.
+        url: http://retrokomp.org/
+        facebook: RetrokompLoaderror
+        twitter: retrokomp
+      - tag: pixel
+        alt: Magazyn Pixel - magazine devoted to the culture of video games
+        url: https://pixel-magazine.com/
+        facebook: pixelthemagazine
+        twitter: pxlthemagazine
+      - tag: kaplus
+        alt: Komodore & Amiga plus - magazine devoted to the culture of retro computer games
+        url: http://ka-plus.pl/pl/strona-glowna/
+      - tag: amigowiec
+        alt: Amigowiec - Amiga computer fan page
+        url: https://www.amigowiec.pl/
+        facebook: amigowiecpl
+        instagram: amigowiec
+      - tag: atomicjelly
+        alt: Atomic Jelly - manufacturer and publisher of innovative games
+        url: https://atomic-jelly.com/
+        facebook: AtomicJelly
+        twitter: atomic_jelly
+        instagram: atomicjelly
+      - tag: atarifan
+        alt: AtariFan - magazine for all Atari fans
+        url: http://atarifan.pl/
+      - tag: speccypl
+        alt: speccy.pl - Portal for users and lovers of ZX Spectrum, SAM Coupé and Amstrad CPC computers
+        url: http://speccy.pl
+      - tag: nerdynoca
+        alt: Nerdy Nocą - Podcast widening the horizons, awakening curiosity and improving the mood.
+        url: https://nerdynoca.pl/
+        facebook: NerdyNoca
+      - tag: retrolab
+        alt: RetroLab - A community of widely understood computers and consoles. Amiga, Commodore, Sega or Pegasus - equipment that has accompanied us for at least 30 years.
+        url: http://retrolab.pl
+        facebook: retrolabpl
+      - tag: atariarea
+        alt: atari.area - polish source of information about Atari
+        url: http://www.atari.org.pl/
+        facebook: atari.area
+      - tag: ppa
+        alt: ppa.pl - Polish Amiga Portal
+        url: https://www.ppa.pl/
+      - tag: scena_ppa
+        alt: The only sensible place to gather the Amiga scene
+        url: https://scena.ppa.pl/
+      - tag: pionierska
+        alt: A retro-style micro-recording label releasing music on 3.5-inch floppy disks and cassettes
+        url: https://pionierskarecords.bandcamp.com/audio
+        facebook: pionierska
+        twitter: pionierska
+        instagram: pionierskarecords
+      - tag: patchlab
+        alt: Patchlab Digital Art Festival 
+        url: https://patchlab.pl/
+        facebook: patchlabfestival
+        instagram: patchlabfestival
+      - tag: psx_extreme
+        alt: PSX Extereme - an opinion-forming monthly magazine about console games
+        url: http://www.psxextreme.pl/
