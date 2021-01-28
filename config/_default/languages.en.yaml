@@ -235,3 +235,33 @@ params:
       - tag: wro
         alt: The WRO Media Art Biennale - the major forum for new media art in Poland
         url: https://wrocenter.pl/en/biennale-wro/
+      - tag: superbright
+        alt: Superbright - a collective of past AAA gaming and Silicon Valley devs who are obsessed with the future of technology
+        url: http://www.superbright.org/
+        facebook: SuperbrightVR
+        twitter: superbrightvr
+        youtube: superbrightvr
+      - tag: perimeter
+        alt: Perimeter Games - an independent game developer
+        url: https://www.perimetergames.eu/
+      - tag: jujubee
+        alt: Jujubee S.A. - the game development studio
+        youtube: JujubeeGames
+        twitter: JujubeeGames
+        facebook: Jujubee
+        url: http://jujubee.pl/en.o_nas.html
+      - tag: try_evidence
+        alt: try_evidence - the analytical support needed in data driven games development
+        url: https://tryevidence.com/
+      - tag: cdaction
+        alt: CD-Action - one of the oldest polish computer games magazines
+        url: https://www.cdaction.pl/
+      - tag: vivid
+        alt: Vivid Games - leading polish mobile games developer studios
+        url: https://vividgames.com/
+      - tag: c64portal
+        alt: C64 Portal - Commodore 64 community portal
+        url: https://c64portal.pl/
+      - tag: stardrifters
+        alt: Star Drifters - company fueled by the love of game development and the energy of the artists who create them
+        url: https://stardrifters.com/

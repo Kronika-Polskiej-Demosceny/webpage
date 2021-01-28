@@ -237,3 +237,39 @@ params:
       - tag: wro
         alt: Międzynarodowe Biennale Sztuki Mediów WRO
         url: https://wrocenter.pl/pl/
+      - tag: superbright
+        alt: Superbright - kolektyw weteranów przemysłu growego AAA i Doliny Krzemowej z obsesją na punkcie przyszłości technologii
+        url: http://www.superbright.org/
+        facebook: SuperbrightVR
+        twitter: superbrightvr
+        youtube: superbrightvr
+      - tag: perimeter
+        alt: Perimeter Games - an independent game developer
+        url: https://www.perimetergames.eu/
+        facebook: PerimeterGames
+        twitter: perimeter_games
+        instagram: perimetergames
+      - tag: jujubee
+        alt: Jujubee S.A. - studio deweloperskie zajmujące się tworzeniem gier wideo
+        youtube: JujubeeGames
+        twitter: JujubeeGames
+        instagram: jujubeegames
+        facebook: Jujubee
+        url: http://jujubee.pl/pl.o_nas.html
+      - tag: try_evidence
+        alt: try_evidence - agencja analityczna branży gier wideo
+        url: https://tryevidence.com/pl/
+        facebook: tryevidence
+        twitter: TryEvidence
+      - tag: cdaction
+        alt: CD-Action - jeden z najstarszych polskich magazynów o grach
+        url: https://www.cdaction.pl/
+      - tag: vivid
+        alt: Vivid Games - wiodące studio tworzące gry na urządzenia przenośne
+        url: https://vividgames.com/
+      - tag: c64portal
+        alt: C64 Portal - Strona społeczności Commodore 64
+        url: https://c64portal.pl/
+      - tag: stardrifters
+        alt: Star Drifters - firma zasilana miłością do tworzenia gier i energią artystów, którzy je robią.
+        url: https://stardrifters.com/
