@@ -151,6 +151,13 @@ params:
             style: fab fa-instagram
           - url: https://www.youtube.com/user/CzarnyJobacz
             style: fab fa-youtube
+      - nick: tiges
+        name: Przemysław Ostrowski
+        social:
+          - url: https://www.facebook.com/Ostrowski.PA/
+            style: fab fa-facebook-f
+          - url: https://youtube.com/user/tiges
+            style: fab fa-youtube
 
   support:
     header: Patronat wniosku
