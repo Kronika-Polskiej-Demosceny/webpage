@@ -280,3 +280,15 @@ params:
       - tag: stardrifters
         alt: Star Drifters - firma zasilana miłością do tworzenia gier i energią artystów, którzy je robią.
         url: https://stardrifters.com/
+      - tag: gamedust
+        alt: GameDust - firma tworząca innowacyjne gry wirtualnej i rozszerzonej rzeczywistości
+        url: https://gamedust.co/
+      - tag: idreams
+        alt: Infinite Dreams - firma dwie dekady w branży gier na urządzenia przenośne
+        url: https://www.idreams.pl/pl/
+      - tag: haart
+        alt: korporacja ha!art - wydawnictwo specjalizujące się w najnowszej kulturze polskiej
+        url: https://www.sklep.ha.art.pl/
+      - tag: ubu
+        alt: UBU lab, Uniwersytet Jagieloński - przestrzeń współpracy między badaczami naukowymi, artystami i programistami.
+        url: http://ubulab.edu.pl/
