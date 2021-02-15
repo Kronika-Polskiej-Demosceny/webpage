@@ -18,11 +18,9 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-5 justify-content-center align-self-center">
         {{ range $k, $v := .partners }}
-        {{ if mod $k 4 | eq 0 }}
-        <div class="row align-items-center h-100">
-        {{end}}
-            <div class="col-sm-3">
+            <div class="col-sm-3 align-self-center py-3">
                 <a href="{{ $v.url }}"><picture class="mx-auto img-fluid d-block">
                     <source srcset="images/support/{{$v.tag}}.webp" type="image/webp"/>
                     <source srcset="images/support/{{$v.tag}}.png" type="image/png"/>
@@ -30,9 +28,10 @@
                 </picture></a>
             </div>
         {{ if mod $k 4 | eq 3 }}
+        <div class="w-100"></div>
+        {{ end }}
+        {{ end }}
         </div>
-        {{ end }}
-        {{ end }}
     </div>
 </section>
 {{end}}
