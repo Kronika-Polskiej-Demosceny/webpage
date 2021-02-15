@@ -292,3 +292,15 @@ params:
       - tag: ubu
         alt: UBU lab, Uniwersytet Jagieloński - przestrzeń współpracy między badaczami naukowymi, artystami i programistami.
         url: http://ubulab.edu.pl/
+      - tag: beepstreet
+        alt: BeepStreet - firma tworząca światowej klasy oprogramowanie do tworzenia muzyki
+        url: https://www.beepstreet.com/
+      - tag: soundimage
+        alt: Sound Image - bank muzyki produkcyjnej
+        url: http://www.soundimage.pl/?language=pl
+      - tag: 11bit
+        alt: 11bit Studios - Firma tworząca gry komputerowe, laureat Apple Design Award
+        url: https://www.11bitstudios.com/pl/
+      - tag: blank
+        alt:
+        url:

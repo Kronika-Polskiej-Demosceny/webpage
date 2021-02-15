@@ -284,3 +284,15 @@ params:
       - tag: ubu
         alt: UBU lab, Jagielonian University - a space meant for collaboration between researchers, artists and programmers.
         url: http://ubulab.edu.pl/
+      - tag: beepstreet
+        alt: BeepStreet - software house behind industry leading music composing software
+        url: https://www.beepstreet.com/
+      - tag: soundimage
+        alt: Sound Image - quality stock music library
+        url: http://www.soundimage.pl/?language=en
+      - tag: 11bit
+        alt: 11bit Studios - Game development studio, Apple Design Award winner.
+        url: https://www.11bitstudios.com/
+      - tag: blank
+        alt:
+        url:
