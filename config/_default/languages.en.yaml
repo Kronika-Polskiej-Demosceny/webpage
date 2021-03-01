@@ -1,6 +1,11 @@
 languageName: English
+wieght: 2
+contentDir: /content/en
 description: Preserving the heritage of Polish demoscene art for the future generations of digital culture.
 params:
+  navigation:
+    dummy: true
+  
   home:
     title: Kronika Polskiej Demosceny
     tagline1: Digital culture
@@ -156,6 +161,13 @@ params:
             style: fab fa-facebook-f
           - url: https://youtube.com/user/tiges
             style: fab fa-youtube
+      - nick: dely
+        name: Daniel Koźmiński
+        social:
+          - url: https://www.facebook.com/daniel.kozminski/
+            style: fab fa-facebook-f
+      - nick: blank
+      - nick: blank
 
   support:
     header: Patronage of the application

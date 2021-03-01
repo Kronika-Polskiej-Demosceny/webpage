@@ -21,25 +21,27 @@
         <div class="row mt-5 justify-content-center">
         {{ range $k, $v := .team }}
         <div class="col-sm">
+            {{ if ne $v.nick "blank"}}
             <div class="team_boxes_border mt-5">
                 <div class="team_images">
                     <picture class="img-fluid mx-auto d-block rounded">
-                        <source srcset="images/{{.nick}}.webp" type="image/webp"/>
-                        <source srcset="images/{{.nick}}.jpg" type="image/jpg"/>
-                        <img class="img-fluid mx-auto d-block rounded" src="images/{{.nick}}.jpg" alt="">
+                        <source srcset="images/{{$v.nick}}.webp" type="image/webp"/>
+                        <source srcset="images/{{$v.nick}}.jpg" type="image/jpg"/>
+                        <img class="img-fluid mx-auto d-block rounded" src="images/{{$v.nick}}.jpg" alt="">
                     </picture>
                 </div>
                 <div class="team_content ml-3 mr-3 text-center">
-                    <h5 class="font-weight-bold mb-1">{{ replace .name " " "<br/>" | safeHTML }}</h5>
+                    <h5 class="font-weight-bold mb-1">{{ replace $v.name " " "<br/>" | safeHTML }}</h5>
                     <div class="mt-3">
                         <ul class="list-inline follow_team_social mb-0">
-                            {{ range first 3 .social}}
+                            {{ range first 3 $v.social}}
                             <li class="list-inline-item"><a href="{{.url}}"><i class="{{.style}}"></i></a></li>
                             {{ end }}
                         </ul>
                     </div>
                 </div>
             </div>
+            {{end}}
         </div>
 
         {{ if mod $k 3 | eq 2 }}

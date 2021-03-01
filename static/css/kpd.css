@@ -1,3 +1,118 @@
+html,body {
+  height: 100%;
+}
+
+.home-bg.static-single {
+  padding: 50px 0;
+}
+
+.vocabulary .headline {
+  border-bottom: 1px dotted var(--color-3-dark);
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.vocabulary .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.vocabulary .entry .content {
+  margin-bottom: 0.5em;
+}
+
+
+.vocabulary h3 {
+  color: var(--color-3);
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.vocabulary ul {
+  margin-top: 1em;
+  list-style-type: none;
+}
+
+.vocabulary .content a::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0c1";
+  font-size: 0.8em;
+  color: var(--color-3-lite);
+  padding-left: 0.1em;
+  padding-right: 0.2em;
+  font-weight: 700;
+}
+.vocabulary .content a:hover::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0c1";
+  font-size: 0.8em;
+  color: var(--color-3-lite);
+  padding-left: 0.1em;
+  padding-right: 0.2em;
+  font-weight: 700;
+}
+
+.vocabulary .content a[href*="//"]:not([href*="localhost"]):not([href*="kskpd.pl"])::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f35d";
+  font-size: 0.8em;
+  color: var(--color-3-lite);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: 700;
+}
+.vocabulary .content a[href*="//"]:not([href*="localhost"]):not([href*="kskpd.pl"]):hover::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f35d";
+  font-size: 0.8em;
+  color: var(--color-3-lite);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: 700;
+}
+
+.vocabulary .content ul {
+  padding: 0;
+}
+.vocabulary .content ol {
+  padding-left: 1.1em;
+}
+
+.vocabulary .content ul li {
+  display: inline;
+}
+.vocabulary .content ul li::after {
+  content: '; ';
+  padding-right: 0.5em;
+}
+.vocabulary .content ul li:last-child::after {
+  content: none;
+}
+
+.vocabulary .content a {
+  color: var(--color-3);
+}
+.vocabulary .content a:hover {
+  color: var(--color-3-lite);
+  text-decoration: underline !important;
+}
+
+.vocabulary_toc ul { padding: 0; }
+.vocabulary_toc ul li {
+  display: inline;
+}
+.vocabulary_toc ul li a {
+  color: var(--color-3-dark);
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 0 0.1em;
+}
+.vocabulary_toc ul li a:hover {
+  color: var(--color-3);
+}
+
+section.vocabulary_toc { padding-bottom: 0;}
+
 .about_shader, .demoscene_img {
     max-width: 800px;
     position: relative;

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+		{{ partial "head.html" .}}
+    </head>    
+    <body>
+		{{ partial "navbar.html" .}}
+		{{ partial "home-single.html" .}}
+        {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+
+        {{ $items := .Data.Pages.ByTitle }}
+        {{ $firstLetters := slice }}
+        {{ range $i, $v := $items }}
+          {{ $firstChar := substr $v.Title 0 1 | upper }}
+          {{ if $firstChar | in $firstLetters }}
+          {{ else }}
+            {{ $firstLetters = $firstLetters | append $firstChar }}
+          {{ end }}
+        {{ end  }}
+
+        <section class="section bg-light vocabulary_toc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center section_title">
+                            <div class="section_title_border">
+                                <div class="f-border"></div>
+                                <div class="s-border"></div>
+                                <div class="f-border"></div>
+                                <p class="sec_small_title mb-0 text-custom d-inline-block">Słownik</p>
+                                <div class="f-border"></div>
+                                <div class="s-border"></div>
+                                <div class="f-border"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center"><ul>
+                        {{ range $firstLetters }}
+                            <li><a href="{{ $.Page.CurrentSection.Permalink }}#start_{{ . | lower }}">{{ . }}</a></li>
+                        {{ end }}
+                    </ul></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light vocabulary">
+            <div class="container">
+                {{ $items := .Data.Pages.ByTitle }}
+                {{ $size := len $items }}
+                    {{ range $i, $v := $items }}
+                        {{ $firstChar := substr $v.Title 0 1 | upper }}
+                        {{ $headline := false }}
+                        {{ if $firstChar | in $letters }}
+                            {{ $curLetter := $.Scratch.Get "curLetter" }}
+                            {{ if ne $firstChar $curLetter }}
+                                {{ $.Scratch.Set "curLetter" $firstChar }}
+                                <div class="row" id="start_{{ $firstChar | lower }}">
+                                    <div class="col-lg-12 headline"><h3>{{ $firstChar }}</h3></div>
+                                </div>
+                                {{ end }}
+                                <div class="row entry" id="{{ replace ($v.Title | lower) " " "_"  }}">
+                                <div class="col-3 title">{{ $v.Title | lower }}</div>
+                                <div class="col-9 content">{{ $v.Content }}</div>
+                                </div>
+                          {{ end }}
+                    {{ end }}
+            </div>
+        </section>
+
+        {{ partial "footer.html" .}}
+  
+        <a href="#" class="back_top"> <i class="pe-7s-angle-up"> </i> </a>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/wavify.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.simple-text-rotator.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.wavify.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/kpd.js"></script>
+        {{ partial "js.html" .}}
+    </body>
+</html>
