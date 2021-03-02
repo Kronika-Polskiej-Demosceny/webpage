@@ -7,14 +7,14 @@ W ogólności komputery i urządzenia elektroniczne, na które można tworzyć p
 
 W powszechnym użyciu jest jednak tradycyjny podział przydatna przy organizacji [compo]({{% dict/relref compo %}}) na [party]({{% dict/relref party %}}). Oto niektóre sprzęty i systemy (w nawiasach podkategorie):
 
-- Acorn (Atom, Electron, [Archimedes](https://pl.wikipedia.org/wiki/Acorn_Archimedes)
+- Acorn (Atom, Electron, [Archimedes](https://pl.wikipedia.org/wiki/Acorn_Archimedes))
 - [Amiga](https://pl.wikipedia.org/wiki/Amiga) (OCS/ECS, AGA, PPC/RTG)
 - [Amstrad](https://pl.wikipedia.org/wiki/Amstrad) (CPC, Plus)
 - [Apple](https://pl.wikipedia.org/wiki/Apple_II) (II, II GS)
 - [Atari](https://pl.wikipedia.org/wiki/Atari_(ameryka%C5%84skie_przedsi%C4%99biorstwo)) (Falcon 030, Jaguar, Lynx, ST, STe, TT 030, VCS, XL/XE)
 - [BBC Micro](https://pl.wikipedia.org/wiki/BBC_Micro)
 - [Electronika](https://en.wikipedia.org/wiki/Electronika_BK) (BK-0010/11M)
-- [Commodore](https://pl.wikipedia.org/wiki/Commodore_International) (16/116/plus4, 64 DTV, 128, 64)
+- [Commodore](https://pl.wikipedia.org/wiki/Commodore_International) (16/116/plus4, 64, 64 DTV, 128, VIC-20)
 - [Dreamcast](https://pl.wikipedia.org/wiki/Dreamcast)
 - [Gameboy](https://pl.wikipedia.org/wiki/Game_Boy) (Advance, Color)
 - [Gamecube](https://pl.wikipedia.org/wiki/GameCube)
@@ -39,7 +39,6 @@ W powszechnym użyciu jest jednak tradycyjny podział przydatna przy organizacji
 - [TIC-80](https://tic80.com/)
 - [TRS-80/CoCo](https://pl.wikipedia.org/wiki/TRS-80)
 - [Vectrex](https://pl.wikipedia.org/wiki/Vectrex)
-- [VIC 20](https://pl.wikipedia.org/wiki/Commodore_VIC-20)
 - [Wonderswan](https://pl.wikipedia.org/wiki/WonderSwan)
 - [XBOX](https://pl.wikipedia.org/wiki/Xbox) (360)
 - [ZX](https://pl.wikipedia.org/wiki/ZX_Spectrum) (Enhanced, Spectrum, ZX-81)

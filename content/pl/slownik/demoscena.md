@@ -3,7 +3,7 @@ title: demoscena
 type: vocabulary
 ---
 
-Międzynarodowa społeczność osób zajmujących się niekomercyjnym tworzeniem prezentacji audiowizualnych (jeśli myślisz "teledyski", to jesteś blisko), czyli [dem]({{% dict/relref demo %}}), a także prac [graficznych](({{% dict/relref grafika %}})) i [muzycznych](({{% dict/relref muzyka %}})) na różne platformy [sprzętowe]({{% dict/relref sprzęt %}}).
+Międzynarodowa społeczność osób zajmujących się niekomercyjnym tworzeniem prezentacji audiowizualnych (jeśli myślisz "teledyski", to jesteś blisko), czyli [dem]({{% dict/relref demo %}}), a także prac [graficznych]({{% dict/relref grafika %}}) i [muzycznych]({{% dict/relref muzyka %}}) na różne platformy [sprzętowe]({{% dict/relref sprzęt %}}).
 
 Demoscena to przestrzeń ekspresji twórczej, wymiany wiedzy i doświadczeń oraz życia towarzyskiego.
 
