@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+		{{ partial "head.html" .}}
+    </head>    
+    <body>
+		{{ partial "navbar.html" .}}
+		{{ partial "home-single.html" .}}
+
+        <!-- Demo -->
+        <div id="timeline-embed">
+            <div id="timeline"></div>
+        </div>
+        </section>
+        <link rel="stylesheet" href="css/fonts/font.knightlab.css">
+        <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+        <link title="timeline-styles" rel="stylesheet" href="css/themes/timeline.theme.kpd.css">
+        <script src="js/timeline.js"></script>
+        <!-- endbuild -->
+        <script>
+            function calc()  {
+                var header = document.getElementById('home');
+                var footer  =  document.getElementById('footer');
+                var header_h = parseInt(getComputedStyle(header).height)
+                var footer_h = parseInt(getComputedStyle(footer).height)
+                
+                return window.innerHeight - header_h - footer_h;
+            }
+
+            var json = {
+                events: [
+                        {{ range .Data.Pages.ByTitle }}
+                            {
+                                media: {
+                                  url: "{{ .Params.youtube }}",
+                                  credit: "",
+                                  thumbnail: "{{ .Params.thumbnail }}"
+                                },
+                                start_date: {
+                                  year: "{{ .Params.year }}"
+                                },
+                                display_date:  "{{ .Params.from }}, {{ .Params.year }}",
+                                text: {
+                                  headline: "{{ .Title }}  / {{ .Params.releaser }}",
+                                  text: "{{ .Content }}"
+                                },
+                                group: "{{ .Params.group }}"
+                            },
+                        {{ end }}
+                ]
+            };
+            $(document).ready(function() {
+                var embed = document.getElementById('timeline-embed');
+                embed.style.height = calc() + 'px'
+
+                window.timeline = new TL.Timeline('timeline-embed', json, {
+                    language: "{{ .Params.language }}",
+                    hash_bookmark: false,
+                    start_at_slide: {{ .Params.start_at_slide }},
+                    zoom_sequence: [0.5],
+                    initial_zoom: 0,
+                    optimal_tick_width: 40,
+                    timenav_height_percentage: 15,
+                });
+                window.addEventListener('resize', function() {
+                    embed.style.height = calc() + 'px'
+                    timeline.updateDisplay();
+                })
+            });
+        </script>        
+
+        {{ partial "footer.html" .}}
+  
+        <a href="#" class="back_top"> <i class="pe-7s-angle-up"> </i> </a>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/wavify.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.simple-text-rotator.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.wavify.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/kpd.js"></script>
+        {{ partial "js.html" .}}
+    </body>
+</html>
