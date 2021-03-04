@@ -37,8 +37,7 @@
                             {
                                 media: {
                                   url: "{{ .Params.youtube }}",
-                                  credit: "",
-                                  thumbnail: "{{ .Params.thumbnail }}"
+                                  thumbnail: "{{ .Params.thumbnail }}",
                                 },
                                 start_date: {
                                   year: "{{ .Params.year }}"
@@ -46,25 +45,34 @@
                                 display_date:  "{{ .Params.from }}, {{ .Params.year }}",
                                 text: {
                                   headline: "{{ .Title }}  / {{ .Params.releaser }}",
-                                  text: "{{ .Content }}"
-                                },
-                                group: "{{ .Params.group }}"
+                                  text: "{{ .Content }}",
+                                }
                             },
                         {{ end }}
                 ]
             };
             $(document).ready(function() {
                 var embed = document.getElementById('timeline-embed');
-                embed.style.height = calc() + 'px'
+                var height = calc()
+                console.log(height)
+                embed.style.height = height + 'px'
 
                 window.timeline = new TL.Timeline('timeline-embed', json, {
                     language: "{{ .Params.language }}",
+                    timenav_position: "bottom",
                     hash_bookmark: false,
                     start_at_slide: {{ .Params.start_at_slide }},
                     zoom_sequence: [0.5],
                     initial_zoom: 0,
                     optimal_tick_width: 40,
-                    timenav_height_percentage: 15,
+                    timenav_height: 150,
+                    timenav_height_min: 150,
+                    timenav_mobile_height_percentage: 20,
+                    marker_height_min: 10,
+                    marker_width_min: 200,
+                    credit_height: 1,
+                    caption_height: 1,
+                    menubar_height: 0
                 });
                 window.addEventListener('resize', function() {
                     embed.style.height = calc() + 'px'

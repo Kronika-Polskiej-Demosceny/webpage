@@ -1,5 +1,4 @@
 /* Based on TimelineJS' dark theme */
-
 .tl-storyjs {
  }
 
@@ -1914,8 +1913,9 @@
   position: relative;
   width: 100%;
   min-width: 50%;
+  height: auto;
   float: left;
-  margin-top: auto;
+  margin-top: 1em;
   margin-bottom: auto;
 }
 .tl-slide .tl-slide-content-container .tl-slide-content .tl-text {

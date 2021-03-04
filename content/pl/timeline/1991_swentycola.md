@@ -1,6 +1,6 @@
 ---
 title: Swenty Cola
-releaser: Atari ST ST(e) Fan Crew
+releaser: ST(e) Fan Crew
 platform: Atari ST
 group: atari
 credit:

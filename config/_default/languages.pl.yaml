@@ -9,6 +9,8 @@ params:
         url: /
       - name: Słownik
         url: /slownik
+      - name: Linia czasu
+        url: /timeline
 
   home:
     title: Kronika Polskiej Demosceny

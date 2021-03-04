@@ -281,3 +281,46 @@ section.vocabulary_toc { padding-bottom: 0;}
         transform: translate(0) rotate(-0.25deg);
     }
 }
+
+#footer {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-bg.static-single {
+    visibility: hidden;
+    height: 0;
+  }
+  #footer {
+    padding: 0 !important;
+  }
+  .bg-footer .fot_social .social-icon {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    width: 28px;
+  }
+  .tl-menubar {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-bg.static-single {
+    visibility: hidden;
+    height: 0;
+  }
+  #footer {
+    padding: 0 !important;
+  }
+  .bg-footer .fot_social .social-icon {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+  }
+  .tl-menubar {
+    visibility: hidden;
+  }
+}
