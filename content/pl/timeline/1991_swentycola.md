@@ -2,9 +2,9 @@
 title: Swenty Cola
 releaser: ST(e) Fan Crew
 platform: Atari ST
-group: atari
+group: polska
 credit:
-year: 1991
+year: 1991-07-04
 from: Gdańsk
 youtube: https://youtu.be/SCXLiK6Tqgo
 thumbnail: https://i3.ytimg.com/vi/SCXLiK6Tqgo/hqdefault.jpg

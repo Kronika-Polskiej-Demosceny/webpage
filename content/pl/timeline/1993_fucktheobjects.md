@@ -2,9 +2,9 @@
 title: Fuck the Objects
 releaser: Adrar Design
 platform: PC (DOS)
-group: pc
+group: polska
 credit:
-year: 1993
+year: 1993-12
 from: Ostrowiec Świętokrzyski
 youtube: https://youtu.be/RYBBgQPs3zA
 thumbnail: https://i3.ytimg.com/vi/RYBBgQPs3zA/hqdefault.jpg

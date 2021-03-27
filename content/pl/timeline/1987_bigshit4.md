@@ -2,9 +2,9 @@
 title: BigShit Demo part IV
 releaser: Hacker Chris
 platform: ZX Spectrum
-group: spectrum
+group: polska
 credit:
-year: 1987
+year: 1987-07-10
 from: Skierniewice
 youtube: https://youtu.be/5ApVEwL7jGI
 thumbnail: https://i3.ytimg.com/vi/5ApVEwL7jGI/hqdefault.jpg

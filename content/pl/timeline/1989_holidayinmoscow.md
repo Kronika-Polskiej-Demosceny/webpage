@@ -2,9 +2,9 @@
 title: Holiday in Moscow
 releaser: Quartet
 platform: Amiga
-group: amiga
+group: polska
 credit:
-year: 1989
+year: 1989-08-07
 from: Szczecin
 youtube: https://youtu.be/gO5Zzhzg3fg
 thumbnail: https://i3.ytimg.com/vi/gO5Zzhzg3fg/hqdefault.jpg

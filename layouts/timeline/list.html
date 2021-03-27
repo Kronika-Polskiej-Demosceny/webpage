@@ -37,10 +37,21 @@
                                   url: "{{ .Params.youtube }}",
                                   thumbnail: "{{ .Params.thumbnail }}",
                                 },
+                                {{ $date := split .Params.year "-" }}
+                                {{ $date_len := len $date }}
                                 start_date: {
-                                  year: "{{ .Params.year }}"
+                                  {{ if ge $date_len 1 }}
+                                    year: "{{ index $date 0 }}",
+                                  {{ end }}
+                                  {{ if ge $date_len 2 }}
+                                    month: "{{ index $date 1 }}",
+                                  {{ end }}
+                                  {{ if ge $date_len 3 }}
+                                    day: "{{ index $date 2 }}",
+                                  {{ end }}
                                 },
-                                display_date:  "{{ .Params.from }}, {{ .Params.year }}",
+                                group: "{{ .Params.group }}",
+                                display_date:  "{{ .Params.from }}, {{ index $date 0 }}",
                                 text: {
                                   headline: "{{ .Title }}  / {{ .Params.releaser }}",
                                   text: "{{ .Content }}",

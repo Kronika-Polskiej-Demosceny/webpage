@@ -2,9 +2,9 @@
 title: Firestarter
 releaser: Shadows
 platform: Atari Falcon
-group: atari
+group: polska
 credit:
-year: 1996
+year: 1996-08-03
 from: Częstochowa
 youtube: https://youtu.be/lvnE95o7KJQ
 thumbnail: https://i3.ytimg.com/vi/lvnE95o7KJQ/hqdefault.jpg

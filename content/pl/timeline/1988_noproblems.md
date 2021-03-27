@@ -2,9 +2,9 @@
 title: No Problems
 releaser: Quartet
 platform: Commodore 64
-group: c64
+group: polska
 credit:
-year: 1988
+year: 1988-08
 from: Szczecin
 youtube: https://youtu.be/4FJeg04Kt3k
 thumbnail: https://i3.ytimg.com/vi/4FJeg04Kt3k/hqdefault.jpg

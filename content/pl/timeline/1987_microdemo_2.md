@@ -2,7 +2,7 @@
 title: Microdemo II
 releaser: EGR General Programming
 platform: Atari XL/XE
-group: atari
+group: polska
 credit:
 year: 1987
 from: Bytom
