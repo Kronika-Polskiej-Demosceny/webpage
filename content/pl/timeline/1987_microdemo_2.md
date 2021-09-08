@@ -4,7 +4,7 @@ releaser: EGR General Programming
 platform: Atari XL/XE
 group: polska
 credit:
-year: 1987
+year: 1987-00-00
 from: Bytom
 youtube: https://youtu.be/_9lZWsHffiU
 thumbnail: https://i3.ytimg.com/vi/_9lZWsHffiU/hqdefault.jpg

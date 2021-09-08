@@ -4,7 +4,7 @@ releaser: Amiga
 platform: Amiga
 group: amiga
 credit:
-year: 1984
+year: 1984-00-00
 youtube: https://www.youtube.com/watch?v=YlAhRJjOhDg
 thumbnail: https://i3.ytimg.com/vi/YlAhRJjOhDg/hqdefault.jpg
 draft: true

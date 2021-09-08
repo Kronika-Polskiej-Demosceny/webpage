@@ -4,7 +4,7 @@ releaser: Logon System
 platform: Amstrad
 group: zagranica
 credit:
-year: 1988-07
+year: 1988-07-00
 from: Francja
 youtube: https://www.youtube.com/watch?v=35ra_42bBM0  
 thumbnail: https://i3.ytimg.com/vi/35ra_42bBM0/hqdefault.jpg

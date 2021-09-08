@@ -10,78 +10,97 @@
     <body>
 		{{ partial "navbar.html" .}}
 		{{ partial "home-single.html" .}}
+    
 
-        <section id="timeline-embed">
-            <div id="timeline"></div>
-        </section>
-        <link rel="stylesheet" href="css/fonts/font.knightlab.css">
-        <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
-        <link title="timeline-styles" rel="stylesheet" href="css/themes/timeline.theme.kpd.css">
-        <script src="js/timeline.js"></script>
-        <!-- endbuild -->
-        <script>
-            function calc()  {
-                var header = document.getElementById('home');
-                var footer  =  document.getElementById('footer');
-                var header_h = parseInt(getComputedStyle(header).height)
-                var footer_h = parseInt(getComputedStyle(footer).height)
-                
-                return window.innerHeight - header_h - footer_h;
-            }
+    <section class="section bg-light timeline_toc">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="text-center section_title">
+                      <div class="section_title_border">
+                          <div class="f-border"></div>
+                          <div class="s-border"></div>
+                          <div class="f-border"></div>
+                          <p class="sec_small_title mb-0 text-custom d-inline-block">Linia Czasu</p>
+                          <div class="f-border"></div>
+                          <div class="s-border"></div>
+                          <div class="f-border"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            {{ $items := (sort .Data.Pages ".Params.year" "asc") }}
+            {{ $decades := slice }}
+            {{ $years := slice }}
+            {{ $menu_items_year := slice }}
+            {{ $menu_items_label := slice }}
+            {{ $menu_items_ishort := slice }}
+            {{ range $i, $v := $items }}
+              {{ $decade := substr $v.Params.year 0 3 }}
+              {{ $year := substr $v.Params.year 0 4 }}
+              {{ if $year | in $years }}
+              {{ else }}
+                {{ if $decade | in $decades }}
+                  {{ $y := substr $v.Params.year 3 1 }}
+                  {{ $menu_items_label = $menu_items_label | append $y}}
+                  {{ $menu_items_year = $menu_items_year | append $year}}
+                  {{ $menu_items_ishort = $menu_items_ishort | append 1}}
+                {{ else }}
+                  {{ $decades = $decades | append $decade }}
+                  {{ $menu_items_label = $menu_items_label | append $year}}
+                  {{ $menu_items_year = $menu_items_year | append $year}}
+                  {{ $menu_items_ishort = $menu_items_ishort | append 0}}
+                {{ end }}
+                {{ $years = $years | append $year }}
+              {{ end }}
+            {{ end  }}
+              <div class="col-lg-12 text-center"><ul>
+                {{ range $i, $v := $menu_items_label }}
+                  <li><a href="{{ $.Page.CurrentSection.Permalink }}#start_{{ index $menu_items_year $i }}" class="{{if index $menu_items_ishort $i | eq 1}}short{{end}}">{{ index $v }}</a></li>
+                {{end}}
+              </ul></div>
+          </div>
+      </div>
+  </section>
 
-            var json = {
-                events: [
-                        {{ range .Data.Pages.ByTitle }}
-                            {
-                                media: {
-                                  url: "{{ .Params.youtube }}",
-                                  thumbnail: "{{ .Params.thumbnail }}",
-                                },
-                                {{ $date := split .Params.year "-" }}
-                                {{ $date_len := len $date }}
-                                start_date: {
-                                  {{ if ge $date_len 1 }}
-                                    year: "{{ index $date 0 }}",
-                                  {{ end }}
-                                  {{ if ge $date_len 2 }}
-                                    month: "{{ index $date 1 }}",
-                                  {{ end }}
-                                  {{ if ge $date_len 3 }}
-                                    day: "{{ index $date 2 }}",
-                                  {{ end }}
-                                },
-                                group: "{{ .Params.group }}",
-                                display_date:  "{{ .Params.from }}, {{ index $date 0 }}",
-                                text: {
-                                  headline: "{{ .Title }}  / {{ .Params.releaser }}",
-                                  text: "{{ .Content }}",
-                                }
-                            },
-                        {{ end }}
-                ]
-            };
-            $(window).on("load", function() {
-                var embed = document.getElementById('timeline-embed');
-                var height = calc()
-                embed.style.height = height + 'px'
-                var timeline = new TL.Timeline('timeline-embed', json, {
-                    language: "{{ .Params.language }}",
-                    timenav_position: "top",
-                    hash_bookmark: false,
-                    start_at_slide: {{ .Params.start_at_slide }},
-                    zoom_sequence: [0.5],
-                    initial_zoom: 0,
-                    optimal_tick_width: 40,
-                    timenav_height_percentage: 15,
-                    timenav_mobile_height_percentage:  20
-                });
-                window.addEventListener('resize', function() {
-                    var  height = calc()
-                    embed.style.height = height + 'px'
-                    timeline.updateDisplay();
-                })
-            });
-        </script>        
+  <section class="section bg-light mt-0 pt-0">
+    <div class="container">
+      <ul class="timeline">
+        {{ $items := (sort .Data.Pages ".Params.year" "asc") }}
+        {{ $size := len $items }}
+        {{ $months_str := slice "jan" "feb" "mar" "apr" "may" "jun" "jul" "aug" "sep" "oct" "nov" "dec" }}
+        {{ $years := slice }}
+        {{ range $i, $v := $items }}
+          <li>
+            {{ $date_arr := split $v.Params.year "-" }}
+            {{ $year := index $date_arr 0 }}
+            {{ if $year | in $years }}
+            <div class="direction-{{ if mod $i 2 | eq 0 }}r{{else}}l{{ end }}">
+            {{ else }}
+              <div class="direction-{{ if mod $i 2 | eq 0 }}r{{else}}l{{ end }}" id="start_{{ $year}}">
+              {{ $years = $years | append $year }}
+            {{ end}}
+
+              <div class="flag-wrapper">
+                <span class="hexa"></span>
+                <span class="flag">{{ $v.Title }}</span>
+                {{ $date_arr := split $v.Params.year "-" }}
+                {{ $year := index $date_arr 0 }}
+                {{ $month_str := ""}}
+                {{ if (index $date_arr 1) | ne "00" }}
+                  {{ $m := sub (int ((index $date_arr 1) | strings.TrimLeft "0")) 1 }}
+                  {{ $month_str = index $months_str $m }}
+                {{ end}}
+                <span class="time-wrapper"><span class="time">{{ T $month_str }} {{ $year }}</span></span>
+              </div>
+              <div class="desc"><div class="video"><a href="{{ $v.Params.youtube }}"><img src="{{ $v.Params.thumbnail }}"/></a></div><p>{{ $v.Content }}</p></div>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+      </div>
+    </section>
 
         {{ partial "footer.html" .}}
   

@@ -1,2 +1,26 @@
 - id: vocabulary
   translation: Słownik
+- id: jan
+  translation: Styczeń
+- id: feb
+  translation: Luty
+- id: mar
+  translation: Marzec
+- id: apr
+  translation: Kwiecień
+- id: may
+  translation: Maj
+- id: jun
+  translation: Czerwiec
+- id: jul
+  translation: Lipiec
+- id: aug
+  translation: Sierpień
+- id: sep
+  translation: Wrzesień
+- id: oct
+  translation: Październik
+- id: nov
+  translation: Listopad
+- id: dec
+  translation: Grudzień

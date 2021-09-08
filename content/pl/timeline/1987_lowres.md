@@ -4,7 +4,7 @@ releaser: Pokey Soft
 platform: Atari ST
 group: zagranica
 credit:
-year: 1987-01
+year: 1987-01-00
 from: Norwegia
 youtube: https://www.youtube.com/watch?v=OHwzm8JRaYk
 thumbnail: https://i3.ytimg.com/vi/OHwzm8JRaYk/hqdefault.jpg

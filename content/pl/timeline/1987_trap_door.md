@@ -4,7 +4,7 @@ releaser: Castor Cracking Group
 platform: ZX Spectrum
 group: zagranica
 credit:
-year: 1987
+year: 1987-00-00
 from: Szwecja
 youtube: https://www.youtube.com/watch?v=oMsyOf4var4
 thumbnail: https://i3.ytimg.com/vi/oMsyOf4var4/hqdefault.jpg

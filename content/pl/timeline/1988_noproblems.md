@@ -4,7 +4,7 @@ releaser: Quartet
 platform: Commodore 64
 group: polska
 credit:
-year: 1988-08
+year: 1988-08-00
 from: Szczecin
 youtube: https://youtu.be/4FJeg04Kt3k
 thumbnail: https://i3.ytimg.com/vi/4FJeg04Kt3k/hqdefault.jpg

@@ -4,7 +4,7 @@ releaser: Atari Team
 platform: Atari XL/XE
 group: zagranica
 credit:
-year: 1987
+year: 1987-00-00
 from: Niemcy
 youtube: https://www.youtube.com/watch?v=cYTun5h5wTU 
 thumbnail: https://i3.ytimg.com/vi/cYTun5h5wTU/hqdefault.jpg
